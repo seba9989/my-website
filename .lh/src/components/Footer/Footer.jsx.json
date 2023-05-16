@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 7,
             "patches": [
                 {
                     "date": 1684255873176,
@@ -20,6 +20,22 @@
                 {
                     "date": 1684255956406,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import React from 'react'\r\n+import style from './Footer.module.scss'\r\n+\r\n+const Footer = () => <div>F</div>\r\n+\r\n+export default Footer\r\n"
+                },
+                {
+                    "date": 1684256958658,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,6 @@\n import React from 'react'\r\n import style from './Footer.module.scss'\r\n \r\n-const Footer = () => <div>F</div>\r\n+const Footer = () => <div >Footer</div>\r\n \r\n export default Footer\r\n-import React from 'react'\r\n-import style from './Footermodule.scss'\r\n-\r\n-const Footer = () => <div>Header</div>\r\n-\r\n-export default Footer\n-import React from 'react'\r\n-import style from './Header.module.scss'\r\n-\r\n-const Footer = () => <div>Header</div>\r\n-\r\n\\ No newline at end of file\n-export default Header\n"
+                },
+                {
+                    "date": 1684256975101,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import React from 'react'\r\n+import style from './Footer.module.scss'\r\n+\r\n+const Footer = () => <div className={sty}>Footer</div>\r\n+\r\n+export default Footer\r\n"
+                },
+                {
+                    "date": 1684256981351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from 'react'\r\n import style from './Footer.module.scss'\r\n \r\n-const Footer = () => <div className={style.}>Footer</div>\r\n+const Footer = () => <div className={style.main}>Footer</div>\r\n \r\n export default Footer\r\n"
+                },
+                {
+                    "date": 1684256996005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from 'react'\r\n-import style from './Footer.module.scss'\r\n+import * as style from './Footer.module.scss'\r\n \r\n const Footer = () => <div className={style.main}>Footer</div>\r\n \r\n export default Footer\r\n"
                 }
             ],
             "date": 1684255873176,

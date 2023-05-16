@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 10,
+            "activePatchIndex": 18,
             "patches": [
                 {
                     "date": 1684255711071,
@@ -48,6 +48,38 @@
                 {
                     "date": 1684255781272,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+import React from \"react\";\r\n+import style from './Header.module.scss';\r\n+\r\n+const Header = () => (\r\n+    <div>Header</div>\r\n+)\r\n+\r\n+export default \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684259548663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,36 +1,6 @@\n-import React from \"react\";\r\n-import style from './Header.module.scss';\r\n+import React from 'react'\r\n+import style from './Header.module.scss'\r\n \r\n-const Header = () => (\r\n-    <div>Header</div>\r\n-)\r\n+const Header = () => <>Header</>\r\n \r\n-export default \n-import React from \"react\";\r\n-import style from './Header.module.scss';\r\n-\r\n-const Header = () => (\r\n-    <div>Hea</div>\r\n-)\n-import React from \"react\";\r\n-import style from './Header.module.scss';\r\n-\r\n-const Header = () => (\r\n-    <div></div>\r\n-)\n-import React from \"react\";\r\n-import style from './Header.module.scss';\r\n-\r\n-const Header = () => \n-import React from \"react\";\r\n-import style from './Header.module.scss';\r\n-\r\n-const Header \n-import React from \"react\";\r\n-import style from './Header.module.scss';\r\n-\r\n-const\n-import React from \"react\";\r\n\\ No newline at end of file\n-import style from './Header.module.scss';\r\n-\r\n-export default \n+export default Header\r\n"
+                },
+                {
+                    "date": 1684259554530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from 'react'\r\n import style from './Header.module.scss'\r\n \r\n-const Header = () => <>Header</>\r\n+const Header = () => <div >Header</div>\r\n \r\n export default Header\r\n"
+                },
+                {
+                    "date": 1684259567539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import React from 'react'\r\n+import * as style from './Header.module.scss'\r\n+\r\n+const Header = () => <div className={}>Header</div>\r\n+\r\n+export default Header\r\n"
+                },
+                {
+                    "date": 1684259575031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import React from 'react'\r\n+import * as style from './Header.module.scss'\r\n+\r\n+const Header = () => <div className={style.}>Header</div>\r\n+\r\n+export default Header\r\n"
+                },
+                {
+                    "date": 1684259650360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import React from 'react'\r\n+import * as style from './Header.module.scss'\r\n+\r\n+const Header = () => <div className={style.main}></div>\r\n+\r\n+export default Header\r\n"
+                },
+                {
+                    "date": 1684259656313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import React from 'react'\r\n+import * as style from './Header.module.scss'\r\n+\r\n+const Header = () => <div className={style.main}><h1>Seba</h1></div>\r\n+\r\n+export default Header\r\n"
+                },
+                {
+                    "date": 1684259661375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from 'react'\r\n import * as style from './Header.module.scss'\r\n \r\n-const Header = () => <div className={style.main}><h1>Seba9989.</h1></div>\r\n+const Header = () => <div className={style.main}><h1>Seba9989.dev</h1></div>\r\n \r\n export default Header\r\n"
+                },
+                {
+                    "date": 1684259667912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n \r\n const Header = () => (\r\n \t<div className={style.main}>\r\n \t\t<h1>Seba9989.dev</h1>\r\n+        <nav></nav>\r\n \t</div>\r\n )\r\n \r\n export default Header\r\n"
                 }
             ],
             "date": 1684255711071,

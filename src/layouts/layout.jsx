@@ -7,8 +7,10 @@ import * as style from './layout.module.scss'
 export default function Layout({ children }) {
 	return (
 		<div className={style.main}>
-			<Header />
-			{children}
+			<div className={style.conteiner}>
+				<Header />
+			</div>
+			<div className={style.conteiner}>{children}</div>
 			<Footer />
 		</div>
 	)
