@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/components/Footer/Footer.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1684255873176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1684255879591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from 'react'\r\n import style from './Header.module.scss'\r\n \r\n-const Header = () => <div>Header</div>\r\n+const Footer = () => <div>Header</div>\r\n \r\n export default Header\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684255889787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import React from 'react'\r\n+import style from './Footermodule.scss'\r\n+\r\n+const Footer = () => <div>Header</div>\r\n+\r\n+export default Footer\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684255956406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import React from 'react'\r\n+import style from './Footer.module.scss'\r\n+\r\n+const Footer = () => <div>F</div>\r\n+\r\n+export default Footer\r\n"
+                }
+            ],
+            "date": 1684255873176,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\nimport style from './Header.module.scss'\r\n\r\nconst Header = () => <div>Header</div>\r\n\r\nexport default Header"
+        }
+    ]
+}

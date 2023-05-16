@@ -1,0 +1,66 @@
+{
+    "sourceFile": "src/layouts/layout.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1684255440011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1684255445053,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-import React from \"react\";\n\\ No newline at end of file\n+import React from \"react\";\r\n+import \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684255453225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,2 @@\n+import React from \"react\";\r\n+import '/src/'\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684255518016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+import React from 'react'\r\n+import '/src/index'\r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1684255528855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+import React from 'react'\r\n+import '/src/index'\r\n+\r\n+export default function \r\n"
+                },
+                {
+                    "date": 1684255534518,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+import React from 'react'\r\n+import '/src/index'\r\n+\r\n+export default function layout\r\n"
+                },
+                {
+                    "date": 1684255540533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+import React from 'react'\r\n+import '/src/index'\r\n+\r\n+export default function Layout()\r\n"
+                },
+                {
+                    "date": 1684255547043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import React from 'react'\r\n+import '/src/index'\r\n+\r\n+export default function Layout() {\r\n+    return di\r\n+}\r\n"
+                },
+                {
+                    "date": 1684255552801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import React from 'react'\r\n+import '/src/index'\r\n+\r\n+export default function Layout(ch) {\r\n+    return <div></div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1684255560878,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import React from 'react'\r\n+import '/src/index'\r\n+\r\n+export default function Layout({ch}) {\r\n+    return <div></div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1684255566046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+import React from 'react'\r\n+import '/src/index'\r\n+\r\n+export default function Layout({ children }) {\r\n+\treturn <div>\r\n+        \r\n+    </div>\r\n+}\r\n"
+                },
+                {
+                    "date": 1684255602333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from 'react'\r\n-import '/src/index'\r\n+import '/src/index.scss'\r\n \r\n export default function Layout({ children }) {\r\n \treturn <div>{children}</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1684255926777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+import React from 'react'\r\n+import '/src/index.scss'\r\n+\r\n+export default function Layout({ children }) {\r\n+\treturn <div>\r\n+        {children}</div>\r\n+}\r\n"
+                }
+            ],
+            "date": 1684255440011,
+            "name": "Commit-0",
+            "content": "import React from \"react\";"
+        }
+    ]
+}
